@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garima Chauhan Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Garima Chauhan</a>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#interests" class="nav-link">Interests</a></li>
+                    <li><a href="#cv" class="nav-link">CV</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-sun"></i>
+            </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>Garima Chauhan</span></h1>
+            <p>Aspiring Data Analyst | AI & Data Science Enthusiast</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary" data-aos="zoom-in">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about" data-aos="zoom-in-down" data-aos-duration="5000">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <div class="subtitle">Get to know me</div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am Garima Chauhan a detail-oriented and results-driven Data Analyst with a strong passion for transforming raw data into meaningful insights that support strategic decision-making. My background combines analytical thinking, problem-solving, and a solid foundation in statistical methods, data visualization, and database management. I enjoy working with structured and unstructured data, applying advanced tools and techniques to uncover trends, patterns, and opportunities that drive measurable business outcomes.
+                    <p>With proficiency in tools such as SQL, Python, Excel, and Power BI, I specialize in extracting, cleaning, and analyzing data to deliver actionable insights. I am skilled in creating interactive dashboards and reports that simplify complex datasets, enabling stakeholders to make data-driven decisions with confidence. Beyond technical expertise, I emphasize storytelling with data—presenting findings in a clear, compelling, and user-friendly manner.</p>
+                    <p>Throughout my academic and project experience, I have worked on real-world datasets to analyze customer behavior, identify performance gaps, and predict outcomes using machine learning models. These experiences have strengthened my ability to bridge the gap between technical analysis and business strategy. I am equally comfortable collaborating in teams or working independently, and I value continuous learning to keep up with evolving tools and methodologies in the data domain.</p>
+                    <p>My goal as a Data Analyst is not just to process data but to empower organizations with insights that foster growth, efficiency, and innovation. I aspire to contribute to projects where data becomes the foundation for solving challenges, improving processes, and creating value.</p>
+                </div>
+                <div class="about-image">
+                    <img src="image\Profile image.jpg" alt="Garima Chauhan" style="width:300px; height:auto; display:block; max-width:100%;">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+    <div class="container"  data-aos="fade-right" data-aos-duration="6000">
+        <div class="section-title">
+        <h2>My Skills</h2>
+        <div class="subtitle">What I'm good at</div>
+        </div>
+
+        <div class="skills-category">
+        <h3>Languages & Libraries</h3>
+        <div class="skill-item"><i class="fab fa-python"></i> Python</div>
+        <div class="skill-item"><i class="fas fa-table"></i> Pandas</div>
+        <div class="skill-item"><i class="fas fa-calculator"></i> NumPy</div>
+        <div class="skill-item"><i class="fas fa-cogs"></i> Scikit-Learn</div>
+        <div class="skill-item"><i class="fas fa-flask"></i> Plotly</div>
+        </div>
+
+        <div class="skills-category">
+        <h3>Machine Learning & AI</h3>
+        <div class="skill-item"><i class="fas fa-robot"></i> Machine Learning</div>
+        <div class="skill-item"><i class="fas fa-comments"></i> NLP</div>
+        </div>
+
+        <div class="skills-category">
+        <h3>Web Frameworks & APIs</h3>
+        <div class="skill-item"><i class="fas fa-bolt"></i> FastAPI</div>
+        <div class="skill-item"><i class="fas fa-stream"></i> Streamlit</div>
+        </div>
+
+        <div class="skills-category">
+        <h3>Data Visualization</h3>
+        <div class="skill-item"><i class="fas fa-chart-bar"></i> Matplotlib</div>
+        <div class="skill-item"><i class="fas fa-chart-pie"></i> Seaborn</div>
+        <div class="skill-item"><i class="fas fa-chart-line"></i> Power BI</div>
+        </div>
+
+        <div class="skills-category">
+        <h3>Databases</h3>
+        <div class="skill-item"><i class="fas fa-database"></i> MySQL</div>
+        <div class="skill-item"><i class="fas fa-database"></i> PostgreSQL</div>
+        </div>
+
+        <div class="skills-category">
+        <h3>Tools & Platforms</h3>
+        <div class="skill-item"><i class="fab fa-git-alt"></i> Git & GitHub</div>
+        <div class="skill-item"><i class="fas fa-trophy"></i> Kaggle</div>
+        </div>
+
+        <div class="skills-category">
+        <h3>Development Environments</h3>
+        <div class="skill-item"><i class="fas fa-book-open"></i> Jupyter Notebook</div>
+        <div class="skill-item"><i class="fas fa-code"></i> VS Code</div>
+        <div class="skill-item"><i class="fas fa-gem"></i> Pycharm</div>
+    </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+                <div class="subtitle">Featured Projects</div>
+            </div>
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image\AI-Virtual-Assistant.webp" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Virtual AI-Assistant</h3>
+                        <p class="project-description">I developed an AI-Assistant to optimize workflows, boost productivity, and aid decision-making by automating tasks and delivering insights. With NLP and ML, it efficiently handles queries, retrieves accurate information, and learns from interactions. Its adaptability and precision make it a reliable tool for enhancing workplace efficiency.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/garimachauhancoder/Virtual-AI-Assistant" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image\Heart Diseases Prediction Image.png" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Heart Diseases Prediction</h3>
+                        <p class="project-description">Developed a heart disease prediction system using machine learning to analyze patient data, identify risk factors, and predict the likelihood of heart diseases. The model aids early detection, enabling timely medical intervention. It enhances healthcare efficiency and supports better patient outcomes.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">Scikit-Learn</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Seaborn</span>
+                            <span class="tech-tag">Jupyter Notebook</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/garimachauhancoder/Heart-Diseases-Prediction-Project" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image\Novexus Technology Image.png" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Novexus Technologies Website</h3>
+                        <p class="project-description">This is a modern, responsive, and professional platform designed to showcase the company’s expertise in software development and digital transformation. Built using HTML, CSS, JavaScript, and Bootstrap, the website ensures a seamless user experience with an elegant design and optimized performance.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Javascript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/garimachauhancoder/Novexus-Company-Website" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image\Blinkit Sales Dashboard Image.png" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Blinkit Sales Dashboard</h3>
+                        <p class="project-description">A dynamic and visually engaging Sales Analytics Dashboard designed for Blinkit-India's last-minute delivery app. Built using Power BI, this dashboard offers a comprehensive overview of sales performance, product categorization, outlet segmentation, and customer insights across multiple dimensions.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">DAX</span>
+                            <span class="tech-tag">Power Query</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/garimachauhancoder/Blinkit-Sales-Analysis-Dashboard" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="github-profile">
+                <a href="https://github.com/garimachauhancoder" target="_blank">
+                    <i class="fab fa-github"></i> View More on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section class="interests" id="interests">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Interests</h2>
+                <div class="subtitle">What I love doing</div>
+            </div>
+            <div class="interests-container">
+                <div class="interest-item">
+                    <div class="interest-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="interest-name">Coding</div>
+                    <div class="interest-description">Building innovative solutions and exploring new technologies</div>
+                </div>
+                
+                <div class="interest-item">
+                    <div class="interest-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="interest-name">Reading</div>
+                    <div class="interest-description">Expanding knowledge through technical and business Topics / watching tech blogs</div>
+                </div>
+                
+                <div class="interest-item">
+                    <div class="interest-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <div class="interest-name">Travelling</div>
+                    <div class="interest-description">Enthusiastic about discovering new cultures and broadening my horizons</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section class="cv" id="cv">
+        <div class="container">
+            <div class="section-title">
+                <h2>My CV</h2>
+                <div class="subtitle">Download my resume</div>
+            </div>
+            <div class="cv-content">
+                <p>Interested in learning more about my professional background, education, and experience? Download my CV to get a comprehensive overview of my qualifications and achievements.</p>
+                <a href="Garima Chauhan.pdf" class="cv-download" target="_blank">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact" data-aos="zoom-in">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+                <div class="subtitle">Get in touch</div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's connect</h3>
+                    <p>I'm always interested in hearing about new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Gurugram, Haryana, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>garimachauhan2301@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">Garima Chauhan</div>
+                <div class="social-links">
+                    <a href="https://github.com/garimachauhancoder" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/garima-chauhan-01703924b/" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="tel:+7678574445" class="social-link" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Garima Chauhan. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+<a href="https://wa.me/917678574445"
+    style="--whatsapp-green: #20b954;"
+    class="whatsapp-float"
+    target="_blank"
+    title="Chat with me on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+    <!-- Back to top button -->
+<a href="#" class="back-to-top" id="backToTop">
+        <i class="fa-solid fa-square-chevron-up"></i>
+</a>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+
+</body>
+</html>
